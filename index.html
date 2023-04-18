@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile-styles.css">
+    <title>Encrypter App</title>
+</head>
+<body>
+    <div class="flow-container">
+        <div class="main-container">
+            <div class="entries-container">
+                <div class="header-container">
+                    <h1>Encriptador JavaScript</h1>
+                    <h4>Aplicación de encriptación y desencriptación de texto como challenge para el programa de Oracle + Alura</h4>
+                </div>
+                <textarea placeholder="Escribe aquí">
+    
+                </textarea>
+            </div>
+            <div class="history-container">
+                <div id="result-container">
+                    <p id="text-result"></p>
+                    <button class="btn-accent" title="Copiar al cortapapeles">Copiar</button>
+                </div>
+                <div id="empty-container">
+                    <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_7fwvvesa.json" background="transparent" speed="1" loop autoplay></lottie-player>
+                    <h3><strong>Ningún texto fue encontrado</strong></h3>
+                    <p>Empieza encriptando un texto</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-actions-container">
+            <button class="btn-encrypt" id="btnEncrypt">Encriptar</button>
+            <button class="btn-decrypt">Desencriptar</button>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>
