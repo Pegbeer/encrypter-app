@@ -22,7 +22,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items:auto;
     height: 100%;
     margin-top: 35px;
 }
@@ -56,11 +55,11 @@ body{
 textarea{
     flex-grow: 1;
     border: 3px solid var(--surface-color);
-    border-radius: 8%;
+    border-radius: 1.0rem;
     resize: none;
     padding: 10%;
     font-family: var(--font-family);
-    font-size: 32px;
+    font-size: 1.8rem;
     color:var(--surface-color);
 }
 
@@ -77,14 +76,13 @@ textarea:focus{
 button{
     font-family: var(--font-family);
     border: 0px none;
-    
+    font-size: 1.0rem;
 }
 
 .history-container{
     display: flex;
     flex-direction: column;
     width: 400px;
-    max-height: 100%;
     border-radius: 30px;
     background: var(--surface-color);
     box-shadow: 15px 15px 30px #bebebe;
@@ -100,8 +98,8 @@ lottie-player{
 
 .btn-encrypt{
     background-color: var(--primary-color);
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
     height: 100%;
     width: 110px;
     transition: 0.5s;
@@ -116,8 +114,8 @@ lottie-player{
 .btn-decrypt{
     color: white;
     background-color: grey;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
     height: 100%;
     width: 110px;
     transition: 0.5s;

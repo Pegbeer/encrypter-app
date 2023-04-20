@@ -1,0 +1,102 @@
+/* THIS IS FOR LAPTOPS */
+@media screen and (max-width:1023px){
+
+
+    html,body{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .flow-container{
+        min-height: 100%;
+        height: auto;
+    }
+
+    .main-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        height: auto;
+        width: 100%;
+        gap: 1.0rem;
+    }
+
+    .entries-container{
+        height: 940px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+    }
+
+    .entries-container h1{
+        font-size: 3.0rem;
+    }
+
+    .entries-container h4{
+        font-size: 1.6rem;
+    }
+
+    textarea{
+        padding: 2.0rem;
+        border-radius: 1.0rem;
+        font-size: 2.5rem;
+    }
+
+    .main-actions-container{
+        height: 10%;
+    }
+
+    .main-actions-container button{
+        width: 50%;
+        font-size: 1.8rem;
+    }
+
+    .history-container{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 100%;
+        height: auto;
+    }
+
+    lottie-player{
+        width: 30%;
+    }
+
+    #text-result{
+        font-size: 2.5rem;
+    }
+
+    .value-view.visible{
+        height: fit-content;
+    }
+
+    .btn-accent{
+        border-radius: 1.5rem;
+        font-size: 1.8rem;
+        padding: 4%;
+        height: fit-content;
+    }
+
+    .help-view.visible{
+        width: 100%;
+        font-size: 1.8rem;
+    }
+
+    .help-view.visible h3{
+        margin: 0%;
+    }
+
+    .snackbar{
+        border-radius: 1.0rem;
+        height: min-content;
+    }
+
+    .snackbar p{
+        font-size: 1.8rem;
+    }
+}
