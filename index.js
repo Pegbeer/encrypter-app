@@ -26,7 +26,7 @@ btnDecrypt.onclick = decryptClick;
 
 
 /**
- * Función que muestra un Snackbar informativo basado en el Snackbar de Material para Android
+ * Función que muestra un Snackbar informativo basado en el Snackbar de Material Design para Android
  * @param {Element} element 
  */
 function showSnackbar(element){
